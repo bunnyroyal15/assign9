@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 100%;
+  background-color: rgb(21, 7, 33);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+  top: 0;
+}
+
+.ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.li {
+  margin-left: 8px;
+  padding: 5px 10px;
+  margin-right: 8px;
+  font-weight: bolder;
+  color: white;
+}
+.li:hover {
+  background-color: rgba(202, 201, 207, 0.612);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nav-name {
+  text-decoration: none;
+  color:lawngreen;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-left: 480px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ 
+.blog-container {
+  border-radius: 15px;
+  padding: 30px;
+  background-color: rgb(14, 1, 14);
+  color: white;
+  text-align: center;
+  width: 700px;
+  margin: 50px auto;
+}
+.blog-img {
+  width: 100%;
+  border-radius: 30px;
+}
